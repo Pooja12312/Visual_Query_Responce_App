@@ -1,11 +1,4 @@
-pip install transformers torch streamlit pillow
 
-!streamlit run app.py & npx localtunnel --port 8501
-
-pip install --upgrade streamlit
-
-
-%%writefile app.py
 import streamlit as st
 from transformers import BlipProcessor, BlipForQuestionAnswering
 from PIL import Image
